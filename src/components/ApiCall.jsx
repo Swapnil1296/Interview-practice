@@ -13,7 +13,7 @@ export const ApiCall = () => {
                     setData(data.products)
                 }
             } catch (error) {
-                console.log(error)
+                console.error(error)
 
             }
 
